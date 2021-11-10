@@ -7,7 +7,7 @@ This script scrapes the top 10,000 addresses from etherscan (https://etherscan.i
 clone the repo
 
 ```
-https://github.com/asieke/ethparser.git
+git clone https://github.com/asieke/ethparser.git
 ```
 
 from within the ethparser directory, run npm install
@@ -24,3 +24,5 @@ node index.js
 ```
 
 your output will be in eth.csv
+
+DONE!
