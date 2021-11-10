@@ -23,7 +23,7 @@ let getStuff = async () => {
     }
 
     console.log("Writing Addresses ", i * 100 - 99, " - ", i * 100);
-    let text = out.map((x) => '"' + x.join('","') + '"').join("\n");
+    let text = out.map((x) => '"' + x.join('","') + '"').join("\n") + "\n";
 
     await fs.appendFile("eth.csv", text, (err) => {
       if (err) {
